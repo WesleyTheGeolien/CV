@@ -1,0 +1,10 @@
+[doc]
+name = "CV"
+bundle = "https://data1.fullyjustified.net/tlextras-2022.0r0.tar"
+
+[[output]]
+name = "cv"
+type = "pdf"
+preamble = "" # the preamble file to use (within `src`)
+index = "cv.tex" # the index file to use (within `src`)
+postamble = "" # the postamble file to use (within `src`)
