@@ -5,3 +5,7 @@
 *.run.xml
 *.synctex.gz
 *.pdf
+build
+
+.DS_Store
+Thumbs.db
