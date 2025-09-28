@@ -6,6 +6,7 @@
 \usepackage{xcolor}
 \usepackage{fontspec}
 \usepackage[utf8]{inputenc}
+\usepackage{enumitem}
 
 \hypersetup{
     pdftitle={Wesley Banfield CV},
@@ -24,11 +25,11 @@
 \begin{figure}[!h]
 	\begin{minipage}{0.48\textwidth}
 		\begin{flushleft}
-			\includegraphics[width=2.75cm]{img/profile_relaxed.png}
+			\includegraphics[width=2.75cm]{img/profile_relaxed_compressed.png}
 		\end{flushleft}
 	\end{minipage}\hfill
 	\header{Wesley}{ Banfield}
- 	{Full Stack Developer - Geoscientist}
+ 	{Senior Software Architect - Geoscience Platforms}
 	\begin{minipage}{0.48\textwidth}
 		\begin{flushright}
 			\includegraphics[width=2.75cm]{img/qrcode.png}
@@ -44,7 +45,7 @@
 \begin{quote}
 \large
 \begin{center}
-Innovative engineer looking to \textbf{unite cutting edge web technologies and geosciences} to help provide a more sustainable future.
+Senior software architect with proven expertise in R\&D, platform development, and technical leadership across climate science and natural resources sectors.
 \\
 \end{center}
 \end{quote}
@@ -60,12 +61,13 @@ Innovative engineer looking to \textbf{unite cutting edge web technologies and g
 \href{https://wesleythegeolien.github.io}{Website}
 \end{center}
 
-% \vspace{6pt}
-\section{Domains of expertise}
+\vspace*{\fill}
+\section{Skills}
 \begin{itemize} 
-	\item {\large\textbf{\textcolor{pblue}{Languages and Frameworks}}}: Python, Docker, TypeScript, React, Azure, C++, SQL, Latex
-	\item {\large\textbf{\textcolor{pblue}{Full Stack}}}: Containerization, APIs, Data access, Serverless Compute, Micro Services, Frontend
-	\item {\large\textbf{\textcolor{pblue}{Domains}}}: Scientific Code, Visualization, Innovation, Prototyping, Stakeholder Communication
+	\item {\large\textbf{\textcolor{pblue}{Languages \& Frameworks}}}: Python, Docker, TypeScript, React, C++, SQL, Latex
+	\item {\large\textbf{\textcolor{pblue}{Cloud \& Infrastructure}}}: APIs, Serverless Compute, Micro Services
+	\item {\large\textbf{\textcolor{pblue}{Specialization}}}: Scientific Computing, Data Visualization, Generative AI
+	\item {\large\textbf{\textcolor{pblue}{Technical Leadership}}}: Prototyping, Stakeholder Communication, Cross-functional Collaboration, Innovation
 \end{itemize}
 
 \vspace*{\fill}
@@ -77,16 +79,16 @@ Innovative engineer looking to \textbf{unite cutting edge web technologies and g
 	{Senior Full Stack Developer}
 	{\href{https://resourcemodelingsolutions.com/}{Resource Modeling Solutions, Remote}}
 	{
+	Develop and maintain industry-standard geostatistical Python package (rmsp) and platform with state-of-the-art functionality for Breakthrough Energy-backed organization.
 	\\[-0.5em]
-	\textbf{Full Stack: }Development of 3D interactive web viewer and data processing pipeline.
-	\\[3pt]
-	\textbf{Large Language Model: }Develop and deploy a RAG LLM API to assist rmsp users. 
-	\\[3pt]
-	\textbf{Integrations: }Integration of RMS's DrillHole Optimizer C library into rmsp. Integration between RMSP and GeologicAI.
-	\\[3pt]
-	\textbf{Software Engineering: }Development and maintenance of the core advanced geostatistical code base.
-	\\[3pt]
-	\textbf{Frontend: }Development of \href{https://resourcemodelingsolutions.com}{company's website}.
+	\begin{itemize}[label={}, itemsep=3pt, leftmargin=0pt]
+		\item \textbf{AI Integration:} Implemented cloud-based assistant using LLMs with RAG capabilities, providing contextualized code suggestions and documentation searches grounded in proprietary geological data
+		\item \textbf{3D Visualization:} Built and maintain interactive 3D geological data viewer integrated into Jupyter notebooks using vtk.js, with custom data conversion pipelines
+		\item \textbf{DevOps Leadership:} Spearheaded comprehensive testing framework implementation, orchestrated Git LFS migration for large asset management, and integrated code coverage analysis into CI pipelines
+		\item \textbf{Platform Integrations:} Led integration of C libraries into Python package and prototyped workflows between rmsp and GeologicAI's Coretable for enhanced geological modeling
+		\item \textbf{Web Development:} Developed company website from mock ups.
+		\item \textbf{Development Operations:} Managed feature development, bug fixes, client support, and code reviews for production geological modeling platform
+	\end{itemize}
 	}
 
 	\entry
@@ -94,36 +96,46 @@ Innovative engineer looking to \textbf{unite cutting edge web technologies and g
 	{Team Lead Tech and Infrastructure (Volunteer)}
 	{\href{https://sites.google.com/climatematch.io/academy/about}{Climatematch, Remote}}
 	{
+		Led technical infrastructure for globally accessible climate science summer school program, democratizing access to computational methods in climate science for diverse international community.
 		\\[-0.5em]
-		\textbf{DevOps: }Test and deploy the \href{https://comptools.climatematch.io/tutorials/intro.html}{jupyter book} of the course content. 
-		\\[3pt]
-		\textbf{Management: }Coordinate the tech team to ensure software engineering best practices.
-		\\[3pt]
-		\textbf{Infrastructure: }Point of contact with \href{https://2i2c.org}{2i2c} to deploy JupyterHub for course.
+		\begin{itemize}[label={}, itemsep=3pt, leftmargin=0pt]
+			\item \textbf{DevOps Leadership:} Oversaw development of GitHub Actions pipelines for automated code testing and Jupyter Book creation, ensuring reliable content delivery
+			\item \textbf{Environment Management:} Curated unified computational environment based on Pangeo stack, providing students with comprehensive toolset for climate science coursework
+			\item \textbf{Infrastructure Coordination:} Served as primary liaison with 2i2c for JupyterHub setup and maintenance, ensuring seamless learning platform for global participants
+		\end{itemize}
 	}
-  
+  \end{entrylist}
+  \vspace*{\fill}
+\newpage
+\vspace*{\fill}
+\begin{entrylist}
 	\entry
 	{9/20 - 7/21}
 	{Research Engineer - Climate}
 	{\href{https://paleoclim-cnrs.github.io/}{Protisvalor - CEREGE, France}}
 	{
+	Collaborated with paleoclimatology workgroup within leading French geosciences research center, working closely with researchers across France and Europe on computational climate science initiatives.
 	\\[-0.5em]
-	\textbf{Full Stack: } Design and implement a SaaS app to setup the IPSL boundary limits. The project is open source on \href{https://cerege-cl.github.io/netcdf_editor_app/}{GitHub}
-	\\[3pt]
-	\textbf{Infrastructure: } Deploy and maintain and provision the work group's JupyterHub and compute environments.
-	\\[3pt]
-	\textbf{Frontend: } Design and implement \href{https://paleoclim-cnrs.github.io}{work group's website}.
+	\begin{itemize}[label={}, itemsep=3pt, leftmargin=0pt]
+		\item \textbf{SaaS Platform Development:} Developed, deployed, and maintained Software as a Service platform for IPSL climate model boundary condition configuration, enhancing usability through interactive input construction and open-sourced on GitHub
+		\item \textbf{Data Processing Pipeline:} Contributed to development of semi-automated processing pipeline for climate data analysis, successfully deployed on internal JupyterHub instance under my management
+		\item \textbf{Technical Infrastructure:} Managed JupyterHub deployment, facilitating efficient and streamlined data processing workflows for research team
+		\item \textbf{Community Engagement:} Actively engaged with Pangeo group to advance understanding of computational climate science best practices and methodologies
+	\end{itemize}
 	}
-	
  	\entry
 	{10/19 - 6/20}
 	{Project Manager Digital Innovation}
 	{\href{http://envisol.net/}{Envisol, France}}
 	{
+	Led digital innovation initiatives at French consultancy specializing in contamination and remediation, driving technological advancement in environmental assessment workflows.
 	\\[-0.5em]
-	\textbf{Full Stack: } Build a prototype SaaS application for data acquisition and interpretation for the Contamination and Remediation industry.
-	\\[3pt]
-	\textbf{Automation: } GIS data collection and processing.
+	\begin{itemize}[label={}, itemsep=3pt, leftmargin=0pt]
+		\item \textbf{SaaS Platform Development:} Constructed prototype geostatistical Software as a Service solution for contamination characterization, leveraging advanced geostatistical techniques to provide detailed contamination level insights
+		\item \textbf{Decision Support Systems:} Designed solution to accurately characterize and regularly update contamination estimates, supporting informed decision-making and remediation strategies
+		\item \textbf{Workflow Automation:} Automated data acquisition workflows, streamlining environmental data collection and processing procedures
+		\item \textbf{QGIS Development:} Built bespoke tools for QGIS platform, enhancing geospatial analysis capabilities for contamination assessment projects
+	\end{itemize}
 	}
   
  	\entry
@@ -131,14 +143,14 @@ Innovative engineer looking to \textbf{unite cutting edge web technologies and g
     {Research Engineer}
     {\href{https://www.seequent.com/}{Seequent, New Zealand}}
     {
+	Contributed to R\&D team at leading geological modeling software company, recognized for creating Leapfrog 3D suite utilizing Radial Basis Functions (RBFs) to generate surfaces from sparse geological input data.
     \\[-0.5em]
-   	\textbf{Prototyping: }Web based dashboard creation, integration of Jupyter into workflows and deploying compute intensive tasks to the cloud.
-   	\\[3pt]
-   	\textbf{Core IP Reuse: }Automated creation of geological models from sub sets of data to sample geological uncertainty.
-    \\[3pt]
-   	\textbf{Strategy: }Technical support for key business decisions including verification of geostatistical implementations and creation of infrastructure to obtain and analyze usage metrics of Leapfrog software. 
-    \\[3pt]
-	\textbf{Stakeholder Communication: }Client meetings, presentations and bespoke prototyping facilitated by mixed background.
+   	\begin{itemize}[label={}, itemsep=3pt, leftmargin=0pt]
+		\item \textbf{Geostatistical Validation:} Validated internal geostatistical implementations, ensuring scientific accuracy and robustness for Leapfrog EDGE
+		\item \textbf{Cross-functional Collaboration:} Collaborated with internal teams and clients to deliver technical expertise and innovative geological modeling solutions, bridging R\&D capabilities with market needs
+		\item \textbf{Rapid Prototyping:} Developed prototypes by repurposing existing Core IP and exploring innovative approaches including cloud-based computations and web dashboards for geological applications
+		\item \textbf{User-Centric Development:} Implemented iterative design processes to gather valuable user feedback, refining and enhancing solutions to deliver high-quality, user-focused geological modeling tools
+	\end{itemize}
     % \\
     % Reference : \href{mailto:tim.schurr@seequent.com}{Tim Schurr, Solutions Architect}
 	}
@@ -171,6 +183,7 @@ Innovative engineer looking to \textbf{unite cutting edge web technologies and g
 	% 	\\
 	% 	Reference : Raymond Michels}
 \end{entrylist}
+\vspace*{\fill}
 \newpage
 \vspace*{\fill}
 \section{Presentations and Publications}
