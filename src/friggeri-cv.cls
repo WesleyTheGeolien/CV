@@ -112,7 +112,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 \newcommand{\header}[3]{%
   \begin{tikzpicture}[remember picture,overlay]
     \node [rectangle, fill=fillheader, anchor=north, minimum width=\paperwidth - 10cm, minimum height=3cm] (box) at (current page.north){};
-    \node [anchor=center] (name) at (box) {%
+    \node [below=15pt,anchor=center] (name) at (box) {%
       \fontsize{30pt}{62pt}\color{header}%
       {\thinfont #1}{\bodyfont  #2}
     };
@@ -233,7 +233,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=1.5cm,top=0.5cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=1cm,top=0.5cm,right=1.5cm,bottom=0.5cm,nohead,nofoot,a4paper]{geometry}
 \RequirePackage{hyperref}
 
 \usepackage{array}

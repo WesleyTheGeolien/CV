@@ -1,0 +1,11 @@
+{
+    // "latex-workshop.latex.autoBuild.run": "onSave",
+    "latex-workshop.latex.outDir": "%WORKSPACE_FOLDER%/build/cv",
+    "latex-workshop.latex.tools": [
+        {
+          "name": "tectonic",
+          "command": "nix-shell",
+          "args": ["--command", "tectonic -X build --keep-intermediates --keep-logs"],
+        }
+    ]
+}
